@@ -1,7 +1,15 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-
+  if (license === 'MIT') {
+    return `[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)`
+  }
+  if (license === 'Apache-2.0') {
+    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+  }
+  if (license === 'GPL-3.0') {
+    return `[![License](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)`
+  }
 }
 
 // TODO: Create a function to generate markdown for README
@@ -26,7 +34,8 @@ ${data.installation}
 ${data.usage}
 
 ## License
-This application is covered under the ${data.license} license.
+This application is covered under the ${renderLicenseBadge(data.license)} ${data.license} license.
+
 
 ## Contributing
 ${data.contributing}
