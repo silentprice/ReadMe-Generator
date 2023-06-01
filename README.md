@@ -1,7 +1,7 @@
-# t
+# First project
 
 ## Description
-* t
+* created a readme generator project for users to easily create a readme for me to see their instructions
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,25 +12,23 @@
 - [Questions](#questions)
 
 ## Installation
-t
+first project
 
 ## Usage
-t
+project first
 
 ## License
-This application is covered under the [![License](https://img.shields.io/badge/License-GPL_3.0-blue.svg)](https://opensource.org/licenses/GPL-3.0) GPL-3.0 license.
+This application is covered under the [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) MIT license.
 
 
 ## Contributing
-t
+make this first readme generator
 
 ## Tests
-t
+test
 
 ## Questions
 For any questions or concerns regarding this project, please reach out to me on GitHub or via email:
 
-GitHub: [t](https://github.com/t)
-Email: t
-
-
+GitHub: [silentprice](https://github.com/silentprice)
+Email: nprice0502@yahoo.com
